@@ -1,0 +1,111 @@
+fraud_id,tanggal_laporan,account_id,jenis_fraud,jumlah_kerugian,channel,kota,status_investigasi,waktu_deteksi_jam,sumber_laporan,resolved
+FRD00001,2024-06-01,A0011,Pencurian Identitas,6818000,Cabang,Balikpapan,Terverifikasi,102.1,Sistem Deteksi,True
+FRD00002,2024-06-03,A0042,Skimming ATM,8480000,ATM,Makassar,Selesai - Ganti Rugi,43.8,Sistem Deteksi,True
+FRD00003,2024-06-06,A0033,Pencurian Identitas,14222000,EDC,Yogyakarta,Dalam Investigasi,39.7,Nasabah,True
+FRD00004,2024-06-09,A0036,Skimming ATM,3836000,Internet Banking,Makassar,Dalam Investigasi,9.2,Pihak Ketiga,False
+FRD00005,2024-06-12,A0037,Skimming ATM,14981000,Cabang,Makassar,Dalam Investigasi,0.2,Pihak Ketiga,True
+FRD00006,2024-06-14,A0041,Money Mule,1013000,EDC,Palembang,Terverifikasi,11.6,Sistem Deteksi,False
+FRD00007,2024-06-17,A0017,Pemalsuan Dokumen,9730000,Internet Banking,Surabaya,Ditolak,8.6,Sistem Deteksi,False
+FRD00008,2024-06-20,A0035,Pemalsuan Dokumen,5673000,Mobile Banking,Semarang,Dalam Investigasi,0.9,Sistem Deteksi,True
+FRD00009,2024-06-23,A0048,Transaksi Tidak Sah,4324000,Cabang,Jakarta,Terverifikasi,16.9,Cabang,False
+FRD00010,2024-06-26,A0005,Phishing,5574000,Mobile Banking,Balikpapan,Selesai - Ganti Rugi,12.4,Call Center,True
+FRD00011,2024-06-28,A0048,Social Engineering,1032000,ATM,Makassar,Selesai - Tidak Ganti Rugi,24.2,Cabang,True
+FRD00012,2024-07-01,A0032,Social Engineering,777000,Mobile Banking,Denpasar,Terverifikasi,23.3,Pihak Ketiga,True
+FRD00013,2024-07-04,A0003,Social Engineering,25438000,Mobile Banking,Makassar,Selesai - Tidak Ganti Rugi,3.1,Nasabah,True
+FRD00014,2024-07-07,A0047,Money Mule,2669000,Cabang,Palembang,Dalam Investigasi,90.5,Call Center,True
+FRD00015,2024-07-09,A0035,Skimming ATM,2624000,ATM,Semarang,Dalam Investigasi,5.0,Nasabah,False
+FRD00016,2024-07-12,A0014,Pemalsuan Dokumen,870000,Mobile Banking,Denpasar,Terverifikasi,14.1,Pihak Ketiga,True
+FRD00017,2024-07-15,A0048,Phishing,552000,EDC,Balikpapan,Selesai - Tidak Ganti Rugi,16.1,Pihak Ketiga,False
+FRD00018,2024-07-18,A0031,Skimming ATM,2940000,Internet Banking,Denpasar,Dalam Investigasi,40.2,Nasabah,True
+FRD00019,2024-07-21,A0031,Pencurian Identitas,2169000,Mobile Banking,Surabaya,Selesai - Ganti Rugi,2.5,Nasabah,False
+FRD00020,2024-07-23,A0017,Pemalsuan Dokumen,3275000,ATM,Yogyakarta,Ditolak,13.4,Nasabah,True
+FRD00021,2024-07-26,A0024,Pemalsuan Dokumen,3629000,Mobile Banking,Yogyakarta,Ditolak,23.8,Pihak Ketiga,True
+FRD00022,2024-07-29,A0023,SIM Swap,64834000,Internet Banking,Balikpapan,Dalam Investigasi,5.8,Sistem Deteksi,True
+FRD00023,2024-08-01,A0018,SIM Swap,2177000,ATM,Semarang,Selesai - Tidak Ganti Rugi,23.7,Nasabah,True
+FRD00024,2024-08-03,A0014,Money Mule,21767000,Cabang,Yogyakarta,Dalam Investigasi,61.7,Call Center,True
+FRD00025,2024-08-06,A0015,Phishing,23451000,ATM,Bandung,Selesai - Tidak Ganti Rugi,144.0,Pihak Ketiga,False
+FRD00026,2024-08-09,A0015,Pencurian Identitas,8075000,Cabang,Palembang,Selesai - Ganti Rugi,0.8,Cabang,True
+FRD00027,2024-08-12,A0006,Phishing,2465000,ATM,Balikpapan,Selesai - Tidak Ganti Rugi,6.4,Cabang,False
+FRD00028,2024-08-15,A0027,Phishing,638000,Internet Banking,Balikpapan,Dalam Investigasi,8.9,Call Center,False
+FRD00029,2024-08-17,A0015,Money Mule,5800000,Internet Banking,Jakarta,Selesai - Ganti Rugi,12.2,Sistem Deteksi,False
+FRD00030,2024-08-20,A0036,Money Mule,11101000,ATM,Jakarta,Terverifikasi,6.7,Nasabah,True
+FRD00031,2024-08-23,A0008,Skimming ATM,26621000,Mobile Banking,Surabaya,Ditolak,5.5,Pihak Ketiga,True
+FRD00032,2024-08-26,A0015,Transaksi Tidak Sah,1045000,Internet Banking,Surabaya,Dalam Investigasi,74.2,Nasabah,False
+FRD00033,2024-08-28,A0003,Money Mule,2440000,Cabang,Jakarta,Dalam Investigasi,60.2,Pihak Ketiga,False
+FRD00034,2024-08-31,A0047,Phishing,1053000,Cabang,Yogyakarta,Dalam Investigasi,1.2,Cabang,True
+FRD00035,2024-09-03,A0013,SIM Swap,1528000,EDC,Medan,Selesai - Ganti Rugi,9.9,Nasabah,True
+FRD00036,2024-09-06,A0041,Transaksi Tidak Sah,7255000,Cabang,Balikpapan,Terverifikasi,12.5,Call Center,True
+FRD00037,2024-09-09,A0034,Skimming ATM,1446000,EDC,Bandung,Selesai - Tidak Ganti Rugi,6.6,Sistem Deteksi,True
+FRD00038,2024-09-11,A0024,Transaksi Tidak Sah,1215000,ATM,Balikpapan,Terverifikasi,23.8,Call Center,False
+FRD00039,2024-09-14,A0040,Social Engineering,8506000,ATM,Makassar,Selesai - Ganti Rugi,24.5,Sistem Deteksi,True
+FRD00040,2024-09-17,A0032,Pencurian Identitas,5614000,ATM,Semarang,Dalam Investigasi,45.6,Nasabah,True
+FRD00041,2024-09-20,A0032,Transaksi Tidak Sah,4975000,Mobile Banking,Palembang,Ditolak,32.4,Nasabah,True
+FRD00042,2024-09-22,A0030,Phishing,1493000,Mobile Banking,Medan,Dalam Investigasi,18.8,Sistem Deteksi,True
+FRD00043,2024-09-25,A0049,Skimming ATM,15426000,EDC,Bandung,Selesai - Tidak Ganti Rugi,25.4,Cabang,False
+FRD00044,2024-09-28,A0013,Pencurian Identitas,3326000,Cabang,Makassar,Ditolak,7.7,Pihak Ketiga,False
+FRD00045,2024-10-01,A0001,Phishing,56867000,Cabang,Surabaya,Dalam Investigasi,21.6,Call Center,True
+FRD00046,2024-10-04,A0034,Pencurian Identitas,3966000,ATM,Bandung,Ditolak,16.1,Call Center,False
+FRD00047,2024-10-06,A0015,SIM Swap,198000,Internet Banking,Jakarta,Terverifikasi,3.4,Call Center,True
+FRD00048,2024-10-09,A0044,Social Engineering,188000,Mobile Banking,Balikpapan,Selesai - Ganti Rugi,6.7,Nasabah,True
+FRD00049,2024-10-12,A0014,SIM Swap,6911000,Mobile Banking,Bandung,Dalam Investigasi,8.3,Call Center,True
+FRD00050,2024-10-15,A0029,Phishing,15565000,ATM,Semarang,Selesai - Tidak Ganti Rugi,61.9,Pihak Ketiga,True
+FRD00051,2024-10-17,A0034,Phishing,1276000,Mobile Banking,Denpasar,Terverifikasi,6.3,Pihak Ketiga,True
+FRD00052,2024-10-20,A0018,Phishing,40677000,ATM,Surabaya,Dalam Investigasi,8.2,Sistem Deteksi,True
+FRD00053,2024-10-23,A0007,Pemalsuan Dokumen,24048000,EDC,Palembang,Terverifikasi,11.1,Nasabah,False
+FRD00054,2024-10-26,A0029,Social Engineering,4208000,Cabang,Palembang,Selesai - Tidak Ganti Rugi,26.2,Pihak Ketiga,True
+FRD00055,2024-10-29,A0031,Pencurian Identitas,6245000,Internet Banking,Bandung,Dalam Investigasi,3.0,Cabang,False
+FRD00056,2024-10-31,A0025,Money Mule,9563000,Cabang,Denpasar,Selesai - Tidak Ganti Rugi,73.9,Nasabah,True
+FRD00057,2024-11-03,A0038,Phishing,31578000,Cabang,Balikpapan,Ditolak,48.2,Nasabah,False
+FRD00058,2024-11-06,A0014,Phishing,7411000,EDC,Makassar,Selesai - Tidak Ganti Rugi,20.7,Pihak Ketiga,False
+FRD00059,2024-11-09,A0008,Pencurian Identitas,4095000,Mobile Banking,Medan,Ditolak,26.9,Cabang,True
+FRD00060,2024-11-12,A0027,Money Mule,7324000,Internet Banking,Balikpapan,Dalam Investigasi,0.4,Sistem Deteksi,False
+FRD00061,2024-11-14,A0002,SIM Swap,6229000,Mobile Banking,Makassar,Ditolak,9.9,Pihak Ketiga,True
+FRD00062,2024-11-17,A0017,SIM Swap,9912000,Cabang,Medan,Dalam Investigasi,38.1,Cabang,False
+FRD00063,2024-11-20,A0037,Phishing,496000,ATM,Denpasar,Dalam Investigasi,1.9,Nasabah,True
+FRD00064,2024-11-23,A0014,Skimming ATM,4775000,Cabang,Medan,Selesai - Ganti Rugi,8.0,Cabang,False
+FRD00065,2024-11-25,A0025,Pemalsuan Dokumen,5680000,Mobile Banking,Balikpapan,Dalam Investigasi,21.1,Nasabah,False
+FRD00066,2024-11-28,A0030,SIM Swap,2995000,Cabang,Semarang,Ditolak,7.1,Pihak Ketiga,True
+FRD00067,2024-12-01,A0029,Skimming ATM,8376000,ATM,Bandung,Selesai - Ganti Rugi,65.2,Pihak Ketiga,True
+FRD00068,2024-12-04,A0020,Pemalsuan Dokumen,32782000,EDC,Makassar,Selesai - Ganti Rugi,3.4,Call Center,False
+FRD00069,2024-12-07,A0021,Phishing,3858000,Mobile Banking,Semarang,Dalam Investigasi,38.3,Call Center,True
+FRD00070,2024-12-09,A0022,Social Engineering,7497000,Cabang,Makassar,Selesai - Tidak Ganti Rugi,17.0,Call Center,True
+FRD00071,2024-12-12,A0035,Transaksi Tidak Sah,22466000,Mobile Banking,Bandung,Selesai - Tidak Ganti Rugi,33.3,Pihak Ketiga,True
+FRD00072,2024-12-15,A0037,Transaksi Tidak Sah,3968000,EDC,Yogyakarta,Selesai - Ganti Rugi,8.9,Sistem Deteksi,True
+FRD00073,2024-12-18,A0016,Phishing,1125000,Cabang,Medan,Dalam Investigasi,17.3,Pihak Ketiga,False
+FRD00074,2024-12-20,A0049,SIM Swap,6844000,Cabang,Denpasar,Selesai - Tidak Ganti Rugi,46.7,Cabang,True
+FRD00075,2024-12-23,A0043,Skimming ATM,232000,Mobile Banking,Yogyakarta,Dalam Investigasi,15.1,Pihak Ketiga,True
+FRD00076,2024-12-26,A0017,Social Engineering,207000,Mobile Banking,Yogyakarta,Dalam Investigasi,10.7,Pihak Ketiga,False
+FRD00077,2024-12-29,A0016,Pencurian Identitas,4874000,ATM,Palembang,Selesai - Ganti Rugi,18.4,Nasabah,False
+FRD00078,2025-01-01,A0002,Pemalsuan Dokumen,196000,EDC,Jakarta,Selesai - Ganti Rugi,30.3,Nasabah,True
+FRD00079,2025-01-03,A0004,Phishing,674000,ATM,Balikpapan,Terverifikasi,14.1,Nasabah,True
+FRD00080,2025-01-06,A0021,Social Engineering,2071000,Cabang,Semarang,Selesai - Tidak Ganti Rugi,67.1,Pihak Ketiga,False
+FRD00081,2025-01-09,A0039,Money Mule,1375000,Mobile Banking,Semarang,Selesai - Tidak Ganti Rugi,8.4,Sistem Deteksi,False
+FRD00082,2025-01-12,A0034,Social Engineering,2737000,Cabang,Semarang,Selesai - Tidak Ganti Rugi,15.5,Cabang,True
+FRD00083,2025-01-14,A0030,SIM Swap,12427000,Cabang,Semarang,Ditolak,33.9,Cabang,True
+FRD00084,2025-01-17,A0006,Money Mule,4352000,Internet Banking,Balikpapan,Dalam Investigasi,28.0,Sistem Deteksi,True
+FRD00085,2025-01-20,A0017,Pemalsuan Dokumen,1193000,Internet Banking,Yogyakarta,Selesai - Ganti Rugi,47.8,Sistem Deteksi,True
+FRD00086,2025-01-23,A0039,Money Mule,16606000,Cabang,Balikpapan,Selesai - Tidak Ganti Rugi,137.9,Cabang,True
+FRD00087,2025-01-26,A0025,Social Engineering,588000,Mobile Banking,Semarang,Terverifikasi,13.4,Call Center,False
+FRD00088,2025-01-28,A0005,SIM Swap,4266000,Cabang,Jakarta,Selesai - Tidak Ganti Rugi,2.8,Nasabah,True
+FRD00089,2025-01-31,A0005,Money Mule,514000,Internet Banking,Surabaya,Dalam Investigasi,0.7,Nasabah,False
+FRD00090,2025-02-03,A0020,Skimming ATM,4425000,Mobile Banking,Bandung,Dalam Investigasi,31.1,Cabang,True
+FRD00091,2025-02-06,A0016,SIM Swap,2230000,Cabang,Semarang,Selesai - Ganti Rugi,49.7,Sistem Deteksi,False
+FRD00092,2025-02-08,A0041,Skimming ATM,11979000,EDC,Denpasar,Ditolak,6.0,Call Center,False
+FRD00093,2025-02-11,A0037,Skimming ATM,7762000,EDC,Surabaya,Selesai - Ganti Rugi,4.1,Cabang,True
+FRD00094,2025-02-14,A0040,Money Mule,1615000,Cabang,Balikpapan,Selesai - Tidak Ganti Rugi,1.5,Nasabah,True
+FRD00095,2025-02-17,A0009,Money Mule,1283000,Mobile Banking,Denpasar,Terverifikasi,41.5,Pihak Ketiga,True
+FRD00096,2025-02-20,A0005,Pencurian Identitas,2239000,Cabang,Denpasar,Selesai - Ganti Rugi,9.0,Sistem Deteksi,False
+FRD00097,2025-02-22,A0042,Pencurian Identitas,31036000,Cabang,Makassar,Ditolak,12.3,Pihak Ketiga,False
+FRD00098,2025-02-25,A0002,Social Engineering,22813000,Internet Banking,Denpasar,Selesai - Ganti Rugi,16.8,Cabang,True
+FRD00099,2025-02-28,A0009,SIM Swap,1022000,EDC,Semarang,Dalam Investigasi,43.9,Nasabah,True
+FRD00100,2025-03-03,A0043,Pencurian Identitas,8539000,Internet Banking,Makassar,Selesai - Tidak Ganti Rugi,25.3,Call Center,True
+FRD00101,2025-03-05,A0036,Skimming ATM,409000,Internet Banking,Palembang,Selesai - Tidak Ganti Rugi,22.9,Pihak Ketiga,False
+FRD00102,2025-03-08,A0022,Pencurian Identitas,1911000,Cabang,Yogyakarta,Selesai - Tidak Ganti Rugi,4.6,Call Center,True
+FRD00103,2025-03-11,A0022,Pemalsuan Dokumen,1074000,Internet Banking,Denpasar,Selesai - Tidak Ganti Rugi,17.3,Nasabah,True
+FRD00104,2025-03-14,A0022,Social Engineering,11794000,EDC,Jakarta,Selesai - Tidak Ganti Rugi,30.2,Pihak Ketiga,True
+FRD00105,2025-03-17,A0034,SIM Swap,694000,Internet Banking,Bandung,Selesai - Tidak Ganti Rugi,86.9,Call Center,True
+FRD00106,2025-03-19,A0029,SIM Swap,5472000,EDC,Denpasar,Terverifikasi,5.4,Call Center,False
+FRD00107,2025-03-22,A0038,Transaksi Tidak Sah,3271000,Internet Banking,Palembang,Ditolak,0.2,Pihak Ketiga,True
+FRD00108,2025-03-25,A0046,SIM Swap,2648000,EDC,Medan,Selesai - Tidak Ganti Rugi,1.9,Nasabah,False
+FRD00109,2025-03-28,A0033,Social Engineering,24297000,Internet Banking,Balikpapan,Ditolak,11.3,Call Center,True
+FRD00110,2025-03-31,A0018,Pemalsuan Dokumen,27007000,Internet Banking,Balikpapan,Selesai - Tidak Ganti Rugi,41.2,Cabang,True

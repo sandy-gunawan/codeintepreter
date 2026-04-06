@@ -1,0 +1,131 @@
+account_id,nama_nasabah,produk,saldo,bunga_persen,tanggal_buka,kelompok_usia,kota,status_aktif,kanal_pembukaan,frekuensi_transaksi_bulanan
+SAV00001,Nasabah A000,Deposito 6 Bulan,116683000,1.59,2020-01-01,36-45,Jakarta,Aktif,Mobile App,4
+SAV00002,Nasabah B001,Deposito 12 Bulan,14996000,4.35,2020-01-15,46-55,Jakarta,Dormant,Mobile App,8
+SAV00003,Nasabah C002,Tabungan Pendidikan,8091000,4.01,2020-01-30,26-35,Surabaya,Aktif,Mobile App,9
+SAV00004,Nasabah D003,Tabungan Bisnis,116321000,5.24,2020-02-14,36-45,Surabaya,Aktif,Internet Banking,2
+SAV00005,Nasabah E004,Deposito 12 Bulan,16829000,4.21,2020-02-29,46-55,Balikpapan,Aktif,Cabang,11
+SAV00006,Nasabah F005,Tabungan Reguler,2377000,4.24,2020-03-15,18-25,Denpasar,Aktif,Cabang,6
+SAV00007,Nasabah G006,Deposito 3 Bulan,56146000,3.58,2020-03-30,56-65,Balikpapan,Aktif,Mobile App,9
+SAV00008,Nasabah H007,Deposito 1 Bulan,45167000,2.85,2020-04-13,18-25,Jakarta,Aktif,Mobile App,14
+SAV00009,Nasabah I008,Giro,133093000,3.89,2020-04-28,26-35,Bandung,Aktif,Mobile App,11
+SAV00010,Nasabah J009,Deposito 1 Bulan,40808000,1.71,2020-05-13,18-25,Bandung,Tutup,Agen,8
+SAV00011,Nasabah K010,Deposito 12 Bulan,10599000,6.77,2020-05-28,18-25,Surabaya,Aktif,Mobile App,8
+SAV00012,Nasabah L011,Tabungan Reguler,162228000,5.29,2020-06-12,56-65,Semarang,Tutup,Agen,11
+SAV00013,Nasabah M012,Deposito 12 Bulan,187724000,6.71,2020-06-27,26-35,Jakarta,Dormant,Cabang,12
+SAV00014,Nasabah N013,Deposito 3 Bulan,34270000,2.36,2020-07-12,26-35,Bandung,Tutup,Internet Banking,13
+SAV00015,Nasabah O014,Tabungan Pendidikan,26442000,6.28,2020-07-26,26-35,Jakarta,Aktif,Internet Banking,9
+SAV00016,Nasabah P015,Giro,3318000,5.85,2020-08-10,36-45,Makassar,Tutup,Internet Banking,11
+SAV00017,Nasabah Q016,Deposito 3 Bulan,9710000,5.06,2020-08-25,36-45,Yogyakarta,Aktif,Internet Banking,5
+SAV00018,Nasabah R017,Deposito 12 Bulan,75614000,4.75,2020-09-09,26-35,Denpasar,Dormant,Agen,10
+SAV00019,Nasabah S018,Tabungan Reguler,10470000,2.9,2020-09-24,26-35,Balikpapan,Aktif,Agen,8
+SAV00020,Nasabah T019,Deposito 3 Bulan,2716000,5.9,2020-10-09,56-65,Jakarta,Tutup,Mobile App,9
+SAV00021,Nasabah U020,Tabungan Haji,4574744000,4.01,2020-10-24,26-35,Yogyakarta,Dormant,Agen,6
+SAV00022,Nasabah V021,Tabungan Reguler,2689000,1.43,2020-11-07,36-45,Makassar,Dormant,Mobile App,6
+SAV00023,Nasabah W022,Tabungan Pendidikan,713096000,2.88,2020-11-22,26-35,Balikpapan,Aktif,Mobile App,11
+SAV00024,Nasabah X023,Deposito 12 Bulan,15231000,6.61,2020-12-07,46-55,Jakarta,Tutup,Internet Banking,11
+SAV00025,Nasabah Y024,Deposito 6 Bulan,21277000,6.1,2020-12-22,26-35,Surabaya,Dormant,Agen,7
+SAV00026,Nasabah Z025,Giro,8811000,6.89,2021-01-06,36-45,Yogyakarta,Dormant,Agen,9
+SAV00027,Nasabah A026,Tabungan Bisnis,78158000,4.77,2021-01-21,26-35,Balikpapan,Aktif,Mobile App,4
+SAV00028,Nasabah B027,Deposito 6 Bulan,2786000,2.49,2021-02-05,65+,Jakarta,Dormant,Mobile App,13
+SAV00029,Nasabah C028,Deposito 12 Bulan,1528000,1.98,2021-02-19,26-35,Yogyakarta,Aktif,Cabang,5
+SAV00030,Nasabah D029,Tabungan Haji,270357000,2.12,2021-03-06,46-55,Makassar,Tutup,Cabang,5
+SAV00031,Nasabah E030,Deposito 6 Bulan,7232000,1.12,2021-03-21,26-35,Jakarta,Tutup,Mobile App,7
+SAV00032,Nasabah F031,Giro,73967000,3.34,2021-04-05,26-35,Jakarta,Tutup,Cabang,8
+SAV00033,Nasabah G032,Tabungan Reguler,4741000,2.15,2021-04-20,46-55,Jakarta,Aktif,Cabang,6
+SAV00034,Nasabah H033,Tabungan Haji,69903000,3.47,2021-05-05,26-35,Palembang,Tutup,Mobile App,11
+SAV00035,Nasabah I034,Tabungan Haji,301813000,6.61,2021-05-19,56-65,Surabaya,Dormant,Mobile App,8
+SAV00036,Nasabah J035,Deposito 3 Bulan,10955000,3.58,2021-06-03,56-65,Makassar,Aktif,Agen,10
+SAV00037,Nasabah K036,Giro,1328000,6.27,2021-06-18,56-65,Balikpapan,Aktif,Mobile App,5
+SAV00038,Nasabah L037,Deposito 6 Bulan,304198000,4.63,2021-07-03,18-25,Palembang,Aktif,Mobile App,7
+SAV00039,Nasabah M038,Deposito 3 Bulan,96917000,2.48,2021-07-18,46-55,Semarang,Tutup,Internet Banking,6
+SAV00040,Nasabah N039,Tabungan Haji,11871000,3.14,2021-08-02,26-35,Palembang,Tutup,Agen,7
+SAV00041,Nasabah O040,Deposito 3 Bulan,17418000,1.5,2021-08-17,56-65,Denpasar,Aktif,Agen,8
+SAV00042,Nasabah P041,Deposito 1 Bulan,4565000,3.0,2021-08-31,36-45,Denpasar,Aktif,Agen,11
+SAV00043,Nasabah Q042,Giro,203339000,5.07,2021-09-15,46-55,Jakarta,Aktif,Internet Banking,9
+SAV00044,Nasabah R043,Tabungan Pendidikan,10831000,1.43,2021-09-30,36-45,Palembang,Aktif,Mobile App,8
+SAV00045,Nasabah S044,Tabungan Reguler,2876000,2.23,2021-10-15,36-45,Semarang,Tutup,Agen,7
+SAV00046,Nasabah T045,Tabungan Haji,33280000,3.29,2021-10-30,18-25,Palembang,Aktif,Agen,6
+SAV00047,Nasabah U046,Giro,6649000,6.89,2021-11-14,46-55,Surabaya,Dormant,Cabang,5
+SAV00048,Nasabah V047,Tabungan Pendidikan,5152000,5.71,2021-11-29,26-35,Surabaya,Dormant,Agen,9
+SAV00049,Nasabah W048,Tabungan Pendidikan,12671000,5.4,2021-12-13,36-45,Semarang,Aktif,Mobile App,6
+SAV00050,Nasabah X049,Deposito 12 Bulan,27495000,1.7,2021-12-28,46-55,Palembang,Tutup,Mobile App,5
+SAV00051,Nasabah Y050,Deposito 3 Bulan,3042000,5.69,2022-01-12,36-45,Yogyakarta,Aktif,Cabang,3
+SAV00052,Nasabah Z051,Tabungan Pendidikan,192907000,5.71,2022-01-27,26-35,Surabaya,Tutup,Agen,11
+SAV00053,Nasabah A052,Deposito 1 Bulan,66701000,4.61,2022-02-11,36-45,Surabaya,Aktif,Agen,8
+SAV00054,Nasabah B053,Giro,13963000,6.94,2022-02-26,26-35,Bandung,Aktif,Agen,9
+SAV00055,Nasabah C054,Tabungan Bisnis,6230000,2.95,2022-03-13,36-45,Palembang,Tutup,Internet Banking,7
+SAV00056,Nasabah D055,Tabungan Bisnis,21129000,6.65,2022-03-27,18-25,Surabaya,Aktif,Agen,5
+SAV00057,Nasabah E056,Tabungan Haji,93097000,6.49,2022-04-11,26-35,Makassar,Aktif,Mobile App,9
+SAV00058,Nasabah F057,Deposito 3 Bulan,73800000,1.07,2022-04-26,26-35,Palembang,Tutup,Mobile App,7
+SAV00059,Nasabah G058,Tabungan Pendidikan,118184000,3.7,2022-05-11,46-55,Denpasar,Tutup,Internet Banking,5
+SAV00060,Nasabah H059,Giro,11750000,6.86,2022-05-26,18-25,Bandung,Aktif,Internet Banking,9
+SAV00061,Nasabah I060,Tabungan Haji,300000,1.62,2022-06-10,26-35,Surabaya,Aktif,Agen,7
+SAV00062,Nasabah J061,Deposito 6 Bulan,156993000,4.29,2022-06-25,56-65,Bandung,Dormant,Cabang,2
+SAV00063,Nasabah K062,Tabungan Pendidikan,18796000,6.87,2022-07-09,18-25,Denpasar,Aktif,Internet Banking,6
+SAV00064,Nasabah L063,Deposito 3 Bulan,65610000,4.33,2022-07-24,36-45,Semarang,Aktif,Internet Banking,6
+SAV00065,Nasabah M064,Tabungan Bisnis,295400000,2.14,2022-08-08,46-55,Semarang,Tutup,Agen,7
+SAV00066,Nasabah N065,Deposito 12 Bulan,930853000,4.49,2022-08-23,56-65,Palembang,Aktif,Agen,10
+SAV00067,Nasabah O066,Giro,9113000,2.23,2022-09-07,46-55,Denpasar,Aktif,Internet Banking,13
+SAV00068,Nasabah P067,Tabungan Reguler,29530000,4.12,2022-09-22,46-55,Medan,Dormant,Cabang,8
+SAV00069,Nasabah Q068,Tabungan Haji,187681000,1.44,2022-10-06,46-55,Medan,Tutup,Internet Banking,6
+SAV00070,Nasabah R069,Giro,6807000,4.63,2022-10-21,26-35,Palembang,Aktif,Agen,10
+SAV00071,Nasabah S070,Giro,10087000,4.1,2022-11-05,46-55,Jakarta,Aktif,Agen,10
+SAV00072,Nasabah T071,Deposito 1 Bulan,9998000,5.44,2022-11-20,18-25,Bandung,Aktif,Internet Banking,6
+SAV00073,Nasabah U072,Deposito 6 Bulan,23158000,4.78,2022-12-05,56-65,Bandung,Dormant,Cabang,7
+SAV00074,Nasabah V073,Tabungan Pendidikan,17362000,4.3,2022-12-20,26-35,Semarang,Aktif,Internet Banking,10
+SAV00075,Nasabah W074,Tabungan Pendidikan,9912000,5.14,2023-01-04,36-45,Medan,Aktif,Internet Banking,11
+SAV00076,Nasabah X075,Deposito 3 Bulan,5673000,1.86,2023-01-18,26-35,Balikpapan,Aktif,Agen,10
+SAV00077,Nasabah Y076,Tabungan Reguler,81646000,4.57,2023-02-02,46-55,Surabaya,Aktif,Cabang,5
+SAV00078,Nasabah Z077,Tabungan Reguler,179690000,2.03,2023-02-17,18-25,Surabaya,Tutup,Mobile App,8
+SAV00079,Nasabah A078,Deposito 3 Bulan,223310000,6.55,2023-03-04,56-65,Surabaya,Tutup,Cabang,18
+SAV00080,Nasabah B079,Deposito 12 Bulan,11738000,1.41,2023-03-19,46-55,Semarang,Tutup,Internet Banking,7
+SAV00081,Nasabah C080,Tabungan Pendidikan,86927000,3.58,2023-04-03,26-35,Denpasar,Aktif,Internet Banking,5
+SAV00082,Nasabah D081,Deposito 12 Bulan,34431000,5.17,2023-04-18,46-55,Yogyakarta,Aktif,Internet Banking,2
+SAV00083,Nasabah E082,Giro,10262000,3.75,2023-05-02,46-55,Medan,Aktif,Cabang,8
+SAV00084,Nasabah F083,Giro,72661000,1.55,2023-05-17,36-45,Medan,Dormant,Agen,6
+SAV00085,Nasabah G084,Tabungan Bisnis,9579000,4.32,2023-06-01,26-35,Balikpapan,Tutup,Internet Banking,5
+SAV00086,Nasabah H085,Tabungan Reguler,13738000,4.85,2023-06-16,26-35,Bandung,Tutup,Internet Banking,4
+SAV00087,Nasabah I086,Tabungan Bisnis,3063000,5.22,2023-07-01,26-35,Jakarta,Aktif,Cabang,10
+SAV00088,Nasabah J087,Deposito 6 Bulan,12039000,3.24,2023-07-16,26-35,Palembang,Aktif,Mobile App,9
+SAV00089,Nasabah K088,Deposito 3 Bulan,35349000,4.38,2023-07-31,56-65,Bandung,Aktif,Mobile App,10
+SAV00090,Nasabah L089,Deposito 3 Bulan,254141000,3.7,2023-08-14,18-25,Denpasar,Aktif,Agen,6
+SAV00091,Nasabah M090,Giro,14214000,5.03,2023-08-29,46-55,Palembang,Tutup,Agen,5
+SAV00092,Nasabah N091,Tabungan Pendidikan,5089000,4.5,2023-09-13,26-35,Medan,Aktif,Internet Banking,8
+SAV00093,Nasabah O092,Deposito 12 Bulan,228273000,4.15,2023-09-28,36-45,Denpasar,Aktif,Cabang,7
+SAV00094,Nasabah P093,Tabungan Reguler,11332000,2.5,2023-10-13,46-55,Palembang,Dormant,Internet Banking,4
+SAV00095,Nasabah Q094,Tabungan Bisnis,1754000,1.01,2023-10-28,56-65,Balikpapan,Aktif,Agen,8
+SAV00096,Nasabah R095,Deposito 12 Bulan,29492000,2.04,2023-11-12,26-35,Balikpapan,Aktif,Cabang,4
+SAV00097,Nasabah S096,Tabungan Bisnis,14840000,1.7,2023-11-26,36-45,Makassar,Aktif,Cabang,8
+SAV00098,Nasabah T097,Deposito 6 Bulan,761342000,3.69,2023-12-11,26-35,Yogyakarta,Dormant,Agen,6
+SAV00099,Nasabah U098,Deposito 6 Bulan,49280000,4.67,2023-12-26,18-25,Balikpapan,Tutup,Mobile App,15
+SAV00100,Nasabah V099,Deposito 12 Bulan,19394000,2.28,2024-01-10,26-35,Medan,Aktif,Mobile App,5
+SAV00101,Nasabah W100,Deposito 12 Bulan,6036000,6.63,2024-01-25,36-45,Jakarta,Tutup,Cabang,6
+SAV00102,Nasabah X101,Deposito 12 Bulan,39636000,1.04,2024-02-09,26-35,Surabaya,Aktif,Internet Banking,5
+SAV00103,Nasabah Y102,Tabungan Bisnis,214767000,5.63,2024-02-23,46-55,Makassar,Tutup,Mobile App,5
+SAV00104,Nasabah Z103,Deposito 1 Bulan,38559000,4.75,2024-03-09,26-35,Surabaya,Dormant,Internet Banking,9
+SAV00105,Nasabah A104,Deposito 12 Bulan,6775000,3.24,2024-03-24,36-45,Yogyakarta,Aktif,Mobile App,9
+SAV00106,Nasabah B105,Tabungan Pendidikan,54200000,1.3,2024-04-08,26-35,Palembang,Dormant,Mobile App,8
+SAV00107,Nasabah C106,Tabungan Reguler,22456000,4.76,2024-04-23,46-55,Semarang,Aktif,Internet Banking,9
+SAV00108,Nasabah D107,Tabungan Reguler,47342000,3.31,2024-05-08,56-65,Balikpapan,Aktif,Agen,9
+SAV00109,Nasabah E108,Tabungan Bisnis,14186000,6.62,2024-05-23,36-45,Jakarta,Dormant,Mobile App,7
+SAV00110,Nasabah F109,Deposito 12 Bulan,13695000,4.25,2024-06-06,46-55,Yogyakarta,Aktif,Mobile App,7
+SAV00111,Nasabah G110,Giro,12907000,6.64,2024-06-21,26-35,Surabaya,Aktif,Internet Banking,6
+SAV00112,Nasabah H111,Deposito 3 Bulan,99270000,2.32,2024-07-06,36-45,Makassar,Aktif,Agen,7
+SAV00113,Nasabah I112,Deposito 1 Bulan,13903000,5.35,2024-07-21,26-35,Balikpapan,Tutup,Mobile App,4
+SAV00114,Nasabah J113,Tabungan Pendidikan,12120000,4.7,2024-08-05,26-35,Medan,Aktif,Mobile App,7
+SAV00115,Nasabah K114,Giro,5879000,5.44,2024-08-20,46-55,Balikpapan,Aktif,Agen,8
+SAV00116,Nasabah L115,Deposito 6 Bulan,47727000,2.29,2024-09-04,56-65,Makassar,Aktif,Mobile App,8
+SAV00117,Nasabah M116,Giro,38553000,4.99,2024-09-18,18-25,Makassar,Aktif,Agen,7
+SAV00118,Nasabah N117,Tabungan Bisnis,12321000,3.99,2024-10-03,36-45,Semarang,Tutup,Agen,11
+SAV00119,Nasabah O118,Deposito 1 Bulan,8334000,5.46,2024-10-18,36-45,Balikpapan,Dormant,Internet Banking,5
+SAV00120,Nasabah P119,Tabungan Haji,402924000,2.96,2024-11-02,18-25,Balikpapan,Tutup,Cabang,1
+SAV00121,Nasabah Q120,Tabungan Haji,1438000,6.34,2024-11-17,26-35,Semarang,Aktif,Agen,6
+SAV00122,Nasabah R121,Deposito 12 Bulan,50614000,1.51,2024-12-02,26-35,Denpasar,Aktif,Internet Banking,9
+SAV00123,Nasabah S122,Deposito 12 Bulan,167602000,5.84,2024-12-17,26-35,Denpasar,Aktif,Cabang,5
+SAV00124,Nasabah T123,Tabungan Bisnis,150000,6.17,2024-12-31,26-35,Palembang,Aktif,Mobile App,8
+SAV00125,Nasabah U124,Deposito 12 Bulan,79495000,5.9,2025-01-15,26-35,Denpasar,Aktif,Cabang,10
+SAV00126,Nasabah V125,Deposito 3 Bulan,17358000,4.08,2025-01-30,26-35,Bandung,Aktif,Agen,12
+SAV00127,Nasabah W126,Deposito 1 Bulan,35465000,3.63,2025-02-14,46-55,Balikpapan,Aktif,Agen,5
+SAV00128,Nasabah X127,Tabungan Bisnis,14874000,6.98,2025-03-01,36-45,Jakarta,Dormant,Agen,4
+SAV00129,Nasabah Y128,Tabungan Reguler,121216000,2.38,2025-03-16,65+,Balikpapan,Aktif,Agen,11
+SAV00130,Nasabah Z129,Deposito 6 Bulan,41644000,4.28,2025-03-31,26-35,Bandung,Dormant,Agen,8

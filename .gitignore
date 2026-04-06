@@ -7,6 +7,7 @@ openai-config.ps1
 # Temp files
 temp_*.json
 scripts/temp_*.json
+scripts/_tmp_*.json
 
 # Node
 node_modules/

@@ -1,0 +1,151 @@
+transaction_id,tanggal,account_id,jumlah,merchant,channel,kota,kategori,status
+TXN00001,2025-01-01,A0028,119603,Unknown,ATM,Medan,Transfer,Berhasil
+TXN00002,2025-01-01,A0010,342841,Alfamart,Online,Denpasar,Investasi,Berhasil
+TXN00003,2025-01-02,A0030,50472,Transfer Bank,Online,Makassar,Investasi,Berhasil
+TXN00004,2025-01-02,A0019,69830,GrabFood,Online,Bandung,Top Up,Berhasil
+TXN00005,2025-01-03,A0017,273252,Unknown,Internet Banking,Semarang,Investasi,Berhasil
+TXN00006,2025-01-03,A0024,371312,Telkomsel,Offline,Makassar,Pembayaran,Berhasil
+TXN00007,2025-01-04,A0019,187149,Indomaret,ATM,Bandung,Tarik Tunai,Gagal
+TXN00008,2025-01-05,A0028,199993,Tokopedia,Internet Banking,Surabaya,Top Up,Gagal
+TXN00009,2025-01-05,A0026,353244,Indomaret,Internet Banking,Palembang,Pembayaran,Berhasil
+TXN00010,2025-01-06,A0023,338514,Alfamart,Internet Banking,Yogyakarta,Pembayaran,Berhasil
+TXN00011,2025-01-06,A0026,100572,Shopee,Internet Banking,Yogyakarta,Belanja,Berhasil
+TXN00012,2025-01-07,A0005,49870,Tokopedia,Internet Banking,Semarang,Investasi,Berhasil
+TXN00013,2025-01-08,A0026,76154964,PLN,Mobile Banking,Denpasar,Transfer,Berhasil
+TXN00014,2025-01-08,A0021,530892,Telkomsel,ATM,Medan,Transfer,Pending
+TXN00015,2025-01-09,A0030,569045,PLN,Internet Banking,Denpasar,Top Up,Berhasil
+TXN00016,2025-01-09,A0023,83168,Traveloka,ATM,Medan,Transfer,Gagal
+TXN00017,2025-01-10,A0009,293834,GrabFood,Mobile Banking,Denpasar,Tarik Tunai,Pending
+TXN00018,2025-01-11,A0012,134952,OVO,Mobile Banking,Palembang,Transfer,Berhasil
+TXN00019,2025-01-11,A0021,112337,Tokopedia,ATM,Surabaya,Top Up,Pending
+TXN00020,2025-01-12,A0001,33188,PLN,Online,Surabaya,Transfer,Berhasil
+TXN00021,2025-01-12,A0026,153640660,Bukalapak,Offline,Bandung,Tarik Tunai,Berhasil
+TXN00022,2025-01-13,A0026,251210,PLN,Online,Balikpapan,Belanja,Pending
+TXN00023,2025-01-14,A0001,39718,Unknown,Online,Surabaya,Top Up,Gagal
+TXN00024,2025-01-14,A0015,217317,Indomaret,Online,Surabaya,Belanja,Gagal
+TXN00025,2025-01-15,A0002,140290,Unknown,Internet Banking,Makassar,Belanja,Berhasil
+TXN00026,2025-01-15,A0030,1167755,Traveloka,Mobile Banking,Makassar,Belanja,Pending
+TXN00027,2025-01-16,A0022,106531,Tokopedia,Online,Bandung,Pembayaran,Berhasil
+TXN00028,2025-01-17,A0016,481659,Tokopedia,Mobile Banking,Balikpapan,Investasi,Pending
+TXN00029,2025-01-17,A0025,83974366,Traveloka,ATM,Semarang,Pembayaran,Berhasil
+TXN00030,2025-01-18,A0008,190509498,Alfamart,Offline,Makassar,Investasi,Berhasil
+TXN00031,2025-01-18,A0013,557060,Unknown,ATM,Semarang,Belanja,Pending
+TXN00032,2025-01-19,A0021,97139,GoFood,ATM,Jakarta,Top Up,Berhasil
+TXN00033,2025-01-20,A0001,175151,Bukalapak,Internet Banking,Makassar,Investasi,Gagal
+TXN00034,2025-01-20,A0016,146775918,DANA,Offline,Palembang,Tarik Tunai,Berhasil
+TXN00035,2025-01-21,A0029,40948,Indomaret,ATM,Balikpapan,Tarik Tunai,Gagal
+TXN00036,2025-01-21,A0007,311769,Tokopedia,ATM,Bandung,Transfer,Berhasil
+TXN00037,2025-01-22,A0005,112130,Alfamart,Offline,Jakarta,Investasi,Berhasil
+TXN00038,2025-01-23,A0022,73686,OVO,Offline,Balikpapan,Top Up,Berhasil
+TXN00039,2025-01-23,A0029,103794,Bukalapak,ATM,Palembang,Pembayaran,Berhasil
+TXN00040,2025-01-24,A0023,224861,Unknown,Offline,Balikpapan,Belanja,Gagal
+TXN00041,2025-01-24,A0003,242164,Indomaret,ATM,Palembang,Transfer,Berhasil
+TXN00042,2025-01-25,A0012,53025,OVO,ATM,Palembang,Tarik Tunai,Berhasil
+TXN00043,2025-01-26,A0026,61287,Unknown,Internet Banking,Semarang,Pembayaran,Berhasil
+TXN00044,2025-01-26,A0016,306454,PLN,Online,Denpasar,Pembayaran,Berhasil
+TXN00045,2025-01-27,A0019,197515,OVO,ATM,Jakarta,Belanja,Berhasil
+TXN00046,2025-01-27,A0005,176260,Traveloka,Mobile Banking,Balikpapan,Investasi,Berhasil
+TXN00047,2025-01-28,A0022,158156,Tiket.com,Online,Medan,Tarik Tunai,Berhasil
+TXN00048,2025-01-29,A0025,175898,Alfamart,Online,Jakarta,Top Up,Pending
+TXN00049,2025-01-29,A0029,139540,Indomaret,Online,Denpasar,Pembayaran,Berhasil
+TXN00050,2025-01-30,A0014,118932,Transfer Bank,Internet Banking,Jakarta,Belanja,Berhasil
+TXN00051,2025-01-30,A0028,100658,Tiket.com,ATM,Surabaya,Top Up,Berhasil
+TXN00052,2025-01-31,A0005,56243,GrabFood,Internet Banking,Medan,Investasi,Berhasil
+TXN00053,2025-02-01,A0015,125225,GrabFood,ATM,Denpasar,Tarik Tunai,Berhasil
+TXN00054,2025-02-01,A0017,148372,Indomaret,Internet Banking,Semarang,Investasi,Berhasil
+TXN00055,2025-02-02,A0030,4177,OVO,Internet Banking,Balikpapan,Pembayaran,Berhasil
+TXN00056,2025-02-02,A0014,2034,Unknown,Mobile Banking,Yogyakarta,Top Up,Berhasil
+TXN00057,2025-02-03,A0030,190515,Alfamart,Internet Banking,Denpasar,Top Up,Berhasil
+TXN00058,2025-02-04,A0020,211715,DANA,Offline,Bandung,Top Up,Berhasil
+TXN00059,2025-02-04,A0005,177857,GrabFood,Mobile Banking,Balikpapan,Pembayaran,Berhasil
+TXN00060,2025-02-05,A0012,245392,Alfamart,Internet Banking,Denpasar,Pembayaran,Pending
+TXN00061,2025-02-05,A0016,186669,GrabFood,Online,Surabaya,Investasi,Berhasil
+TXN00062,2025-02-06,A0026,108010301,PLN,Offline,Yogyakarta,Transfer,Berhasil
+TXN00063,2025-02-07,A0026,128129,Unknown,Offline,Surabaya,Investasi,Pending
+TXN00064,2025-02-07,A0016,145712,PLN,Offline,Yogyakarta,Tarik Tunai,Gagal
+TXN00065,2025-02-08,A0021,171789,Bukalapak,Mobile Banking,Bandung,Belanja,Berhasil
+TXN00066,2025-02-08,A0007,112587,GrabFood,Internet Banking,Balikpapan,Top Up,Berhasil
+TXN00067,2025-02-09,A0004,174492,Transfer Bank,Internet Banking,Semarang,Transfer,Gagal
+TXN00068,2025-02-10,A0001,4448,Transfer Bank,Online,Surabaya,Belanja,Berhasil
+TXN00069,2025-02-10,A0030,136524,PLN,Online,Surabaya,Transfer,Pending
+TXN00070,2025-02-11,A0030,2883,Traveloka,Offline,Palembang,Investasi,Berhasil
+TXN00071,2025-02-11,A0005,127087,Tiket.com,Online,Yogyakarta,Pembayaran,Berhasil
+TXN00072,2025-02-12,A0023,735973,Transfer Bank,Mobile Banking,Makassar,Top Up,Berhasil
+TXN00073,2025-02-13,A0026,105292,GrabFood,Internet Banking,Balikpapan,Investasi,Gagal
+TXN00074,2025-02-13,A0010,209273,Indomaret,Offline,Yogyakarta,Belanja,Berhasil
+TXN00075,2025-02-14,A0022,499936,PLN,Online,Palembang,Belanja,Berhasil
+TXN00076,2025-02-14,A0005,63898,Bukalapak,Mobile Banking,Jakarta,Belanja,Berhasil
+TXN00077,2025-02-15,A0004,716277,DANA,Mobile Banking,Yogyakarta,Belanja,Berhasil
+TXN00078,2025-02-15,A0002,67166,DANA,Online,Semarang,Belanja,Berhasil
+TXN00079,2025-02-16,A0020,355199,Shopee,Internet Banking,Balikpapan,Transfer,Berhasil
+TXN00080,2025-02-17,A0010,94699,Tiket.com,Online,Palembang,Investasi,Pending
+TXN00081,2025-02-17,A0026,85238,OVO,Offline,Jakarta,Top Up,Pending
+TXN00082,2025-02-18,A0019,52062,Unknown,Online,Medan,Pembayaran,Berhasil
+TXN00083,2025-02-18,A0026,2998,Transfer Bank,Mobile Banking,Palembang,Pembayaran,Gagal
+TXN00084,2025-02-19,A0001,134954,Transfer Bank,Online,Medan,Investasi,Berhasil
+TXN00085,2025-02-20,A0024,91502,OVO,Internet Banking,Balikpapan,Investasi,Berhasil
+TXN00086,2025-02-20,A0005,52454,Tokopedia,ATM,Surabaya,Pembayaran,Gagal
+TXN00087,2025-02-21,A0013,127914,Bukalapak,Online,Palembang,Pembayaran,Pending
+TXN00088,2025-02-21,A0004,406060,GoFood,Internet Banking,Bandung,Transfer,Berhasil
+TXN00089,2025-02-22,A0016,214249,PLN,Internet Banking,Medan,Tarik Tunai,Berhasil
+TXN00090,2025-02-23,A0024,123726,Traveloka,Mobile Banking,Semarang,Top Up,Berhasil
+TXN00091,2025-02-23,A0016,314278,Bukalapak,Internet Banking,Bandung,Belanja,Pending
+TXN00092,2025-02-24,A0023,550412,Telkomsel,Internet Banking,Denpasar,Tarik Tunai,Pending
+TXN00093,2025-02-24,A0002,78714,Transfer Bank,Internet Banking,Denpasar,Investasi,Gagal
+TXN00094,2025-02-25,A0017,158297,Unknown,Internet Banking,Jakarta,Pembayaran,Berhasil
+TXN00095,2025-02-26,A0028,110930,Shopee,Offline,Surabaya,Tarik Tunai,Gagal
+TXN00096,2025-02-26,A0027,217359,DANA,Offline,Balikpapan,Top Up,Gagal
+TXN00097,2025-02-27,A0020,134905,Transfer Bank,Mobile Banking,Palembang,Investasi,Pending
+TXN00098,2025-02-27,A0024,62507,Shopee,Online,Makassar,Belanja,Berhasil
+TXN00099,2025-02-28,A0012,219818,GrabFood,Internet Banking,Semarang,Belanja,Berhasil
+TXN00100,2025-03-01,A0018,206260,Bukalapak,Online,Medan,Top Up,Berhasil
+TXN00101,2025-03-01,A0003,35065,GrabFood,Online,Balikpapan,Top Up,Pending
+TXN00102,2025-03-02,A0028,938806,GoFood,Mobile Banking,Bandung,Pembayaran,Berhasil
+TXN00103,2025-03-02,A0001,200555,Indomaret,Internet Banking,Denpasar,Belanja,Berhasil
+TXN00104,2025-03-03,A0001,143053,Telkomsel,Internet Banking,Semarang,Investasi,Berhasil
+TXN00105,2025-03-04,A0029,64809,Bukalapak,ATM,Makassar,Tarik Tunai,Pending
+TXN00106,2025-03-04,A0019,78628,Tokopedia,Online,Palembang,Investasi,Berhasil
+TXN00107,2025-03-05,A0011,108794,GoFood,Online,Jakarta,Transfer,Berhasil
+TXN00108,2025-03-05,A0005,210926,Alfamart,Offline,Makassar,Transfer,Berhasil
+TXN00109,2025-03-06,A0012,116248,Tokopedia,ATM,Semarang,Top Up,Pending
+TXN00110,2025-03-07,A0003,33937,Tiket.com,Offline,Makassar,Pembayaran,Pending
+TXN00111,2025-03-07,A0001,128881,PLN,Offline,Semarang,Transfer,Berhasil
+TXN00112,2025-03-08,A0001,52488174,Unknown,Offline,Semarang,Belanja,Berhasil
+TXN00113,2025-03-08,A0008,135859,Bukalapak,Mobile Banking,Yogyakarta,Investasi,Berhasil
+TXN00114,2025-03-09,A0010,108944,Alfamart,Mobile Banking,Medan,Investasi,Gagal
+TXN00115,2025-03-10,A0011,212141,Alfamart,Offline,Denpasar,Top Up,Berhasil
+TXN00116,2025-03-10,A0012,314117,GoFood,ATM,Yogyakarta,Tarik Tunai,Berhasil
+TXN00117,2025-03-11,A0029,260272,OVO,Online,Palembang,Top Up,Berhasil
+TXN00118,2025-03-11,A0013,126813958,Tiket.com,ATM,Yogyakarta,Tarik Tunai,Berhasil
+TXN00119,2025-03-12,A0012,72383,Indomaret,Internet Banking,Surabaya,Top Up,Pending
+TXN00120,2025-03-13,A0014,153643,Bukalapak,Mobile Banking,Surabaya,Top Up,Berhasil
+TXN00121,2025-03-13,A0002,575716,OVO,Online,Denpasar,Top Up,Berhasil
+TXN00122,2025-03-14,A0029,300723,GoFood,Online,Makassar,Tarik Tunai,Berhasil
+TXN00123,2025-03-14,A0019,1010,PLN,Internet Banking,Medan,Tarik Tunai,Berhasil
+TXN00124,2025-03-15,A0018,52583,DANA,Internet Banking,Denpasar,Top Up,Berhasil
+TXN00125,2025-03-16,A0003,1660,Transfer Bank,Offline,Semarang,Transfer,Gagal
+TXN00126,2025-03-16,A0023,525717,Transfer Bank,Mobile Banking,Bandung,Pembayaran,Berhasil
+TXN00127,2025-03-17,A0017,35220,Indomaret,Mobile Banking,Medan,Pembayaran,Berhasil
+TXN00128,2025-03-17,A0026,161006,PLN,ATM,Medan,Pembayaran,Berhasil
+TXN00129,2025-03-18,A0008,363242,Traveloka,Offline,Semarang,Tarik Tunai,Berhasil
+TXN00130,2025-03-19,A0029,4661,Indomaret,Offline,Semarang,Tarik Tunai,Gagal
+TXN00131,2025-03-19,A0026,216574,Bukalapak,Offline,Jakarta,Transfer,Pending
+TXN00132,2025-03-20,A0010,153344,Bukalapak,Offline,Denpasar,Pembayaran,Berhasil
+TXN00133,2025-03-20,A0026,103462,Shopee,Mobile Banking,Semarang,Pembayaran,Gagal
+TXN00134,2025-03-21,A0030,92814,OVO,Mobile Banking,Surabaya,Top Up,Berhasil
+TXN00135,2025-03-22,A0002,3469,Traveloka,Offline,Palembang,Tarik Tunai,Berhasil
+TXN00136,2025-03-22,A0019,159338,Transfer Bank,ATM,Bandung,Pembayaran,Berhasil
+TXN00137,2025-03-23,A0009,107514,Alfamart,Online,Denpasar,Investasi,Berhasil
+TXN00138,2025-03-23,A0007,85663,OVO,Online,Balikpapan,Transfer,Berhasil
+TXN00139,2025-03-24,A0004,170789,Telkomsel,ATM,Surabaya,Investasi,Berhasil
+TXN00140,2025-03-25,A0026,20014,Bukalapak,Offline,Makassar,Investasi,Pending
+TXN00141,2025-03-25,A0021,207158,Tiket.com,Mobile Banking,Semarang,Transfer,Pending
+TXN00142,2025-03-26,A0018,297017,Unknown,Online,Balikpapan,Investasi,Berhasil
+TXN00143,2025-03-26,A0013,265492,PLN,Internet Banking,Semarang,Pembayaran,Berhasil
+TXN00144,2025-03-27,A0011,151634654,Tokopedia,Internet Banking,Medan,Tarik Tunai,Berhasil
+TXN00145,2025-03-28,A0029,1588,Indomaret,ATM,Surabaya,Transfer,Gagal
+TXN00146,2025-03-28,A0024,163421,Bukalapak,Offline,Medan,Top Up,Pending
+TXN00147,2025-03-29,A0004,111794,OVO,Online,Jakarta,Investasi,Gagal
+TXN00148,2025-03-29,A0025,192353,Traveloka,Offline,Medan,Transfer,Pending
+TXN00149,2025-03-30,A0021,70628141,Unknown,Online,Jakarta,Belanja,Berhasil
+TXN00150,2025-03-31,A0029,379154,Tiket.com,ATM,Jakarta,Belanja,Berhasil

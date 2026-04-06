@@ -1,0 +1,121 @@
+loan_id,customer_id,nama_debitur,jumlah_pinjaman,sisa_pokok,suku_bunga,tenor_bulan,dpd,sektor,wilayah,tanggal_pencairan,jaminan
+LN00001,C0064,PT Indah Pratama,483000000,891000000,8.6,60,120,Teknologi,Sumatera Utara,2022-01-01,Piutang
+LN00002,C0017,PT Maju Bersama,152000000,104000000,7.15,24,0,Teknologi,Jawa Timur,2022-01-10,Tanah
+LN00003,C0012,PT Prima Nusantara,2181000000,543000000,6.28,120,60,Perdagangan,Jakarta,2022-01-19,Mesin
+LN00004,C0022,PT Berkah Nusantara,1166000000,102000000,13.7,60,0,Teknologi,Kalimantan Timur,2022-01-28,Piutang
+LN00005,C0017,PT Sentosa Nusantara,388000000,157000000,13.29,24,0,Pertanian,Sumatera Utara,2022-02-06,Kendaraan
+LN00006,C0010,PT Prima Indonesia,498000000,1995000000,12.56,48,30,Manufaktur,Jawa Timur,2022-02-16,Piutang
+LN00007,C0065,PT Jaya Pratama,597000000,243000000,8.78,12,45,Konstruksi,DI Yogyakarta,2022-02-25,Tanah
+LN00008,C0022,PT Jaya Pratama,62000000,365000000,10.69,84,0,Manufaktur,Bali,2022-03-06,Tanpa Jaminan
+LN00009,C0050,PT Prima Utama,378000000,702000000,13.13,48,21,Teknologi,Bali,2022-03-15,Mesin
+LN00010,C0014,PT Mandiri Makmur,245000000,483000000,11.96,60,31,Pertanian,Jakarta,2022-03-24,Deposito
+LN00011,C0064,PT Abadi Utama,178000000,342000000,17.85,48,0,Pertambangan,Sumatera Selatan,2022-04-03,Tanah
+LN00012,C0047,PT Berkah Utama,366000000,423000000,7.64,48,21,Teknologi,Jawa Barat,2022-04-12,Mesin
+LN00013,C0029,PT Indah Global,2928000000,3254000000,14.34,120,31,Kesehatan,Sumatera Utara,2022-04-21,Piutang
+LN00014,C0076,PT Berkah Pratama,920000000,277000000,10.85,120,30,Pertanian,Sumatera Utara,2022-04-30,Tanpa Jaminan
+LN00015,C0036,PT Sejahtera Indonesia,274000000,359000000,11.14,120,0,Perdagangan,Kalimantan Timur,2022-05-09,Properti
+LN00016,C0052,PT Berkah Bersama,860000000,841000000,14.61,48,60,Pertanian,Kalimantan Timur,2022-05-19,Tanpa Jaminan
+LN00017,C0076,PT Jaya Makmur,1966000000,888000000,14.31,60,0,Perdagangan,Bali,2022-05-28,Properti
+LN00018,C0007,PT Berkah Sejati,1223000000,964000000,17.9,84,1,Transportasi,Bali,2022-06-06,Kendaraan
+LN00019,C0029,PT Sejahtera Nusantara,514000000,557000000,7.54,72,7,Konstruksi,Sulawesi Selatan,2022-06-15,Tanpa Jaminan
+LN00020,C0011,PT Jaya Bersama,254000000,93000000,7.25,48,0,Perhotelan,Sulawesi Selatan,2022-06-24,Mesin
+LN00021,C0033,PT Mandiri Makmur,975000000,1507000000,14.69,24,91,Pertanian,Sumatera Selatan,2022-07-04,Properti
+LN00022,C0006,PT Maju Makmur,719000000,93000000,12.94,60,75,Perikanan,Sulawesi Selatan,2022-07-13,Deposito
+LN00023,C0079,PT Sentosa Global,1187000000,398000000,9.29,48,360,Kesehatan,Jawa Barat,2022-07-22,Mesin
+LN00024,C0032,PT Karya Sejati,915000000,138000000,6.95,84,0,Teknologi,Jawa Barat,2022-07-31,Deposito
+LN00025,C0051,PT Prima Global,1385000000,275000000,7.03,72,0,Kesehatan,Sumatera Utara,2022-08-09,Tanpa Jaminan
+LN00026,C0075,PT Karya Indonesia,284000000,408000000,16.73,120,30,Manufaktur,Jawa Tengah,2022-08-19,Deposito
+LN00027,C0058,PT Karya Pratama,1811000000,405000000,8.3,60,0,Perhotelan,Jawa Barat,2022-08-28,Properti
+LN00028,C0026,PT Jaya Global,591000000,448000000,9.88,36,75,Manufaktur,Jawa Timur,2022-09-06,Mesin
+LN00029,C0046,PT Sentosa Utama,3865000000,1477000000,8.72,72,61,Transportasi,Bali,2022-09-15,Piutang
+LN00030,C0029,PT Maju Nusantara,243000000,463000000,10.26,24,0,Perhotelan,Kalimantan Timur,2022-09-24,Tanah
+LN00031,C0004,PT Prima Bersama,2753000000,230000000,6.83,48,31,Perhotelan,Sulawesi Selatan,2022-10-04,Properti
+LN00032,C0013,PT Berkah Global,591000000,771000000,12.23,84,7,Manufaktur,Sumatera Utara,2022-10-13,Properti
+LN00033,C0039,PT Berkah Bersama,252000000,966000000,6.81,36,120,Perdagangan,Jakarta,2022-10-22,Piutang
+LN00034,C0015,PT Sentosa Utama,299000000,86000000,15.6,84,90,Manufaktur,Kalimantan Timur,2022-10-31,Mesin
+LN00035,C0029,PT Maju Makmur,352000000,534000000,8.8,36,0,Kesehatan,Jawa Timur,2022-11-09,Mesin
+LN00036,C0029,PT Karya Pratama,741000000,593000000,12.48,60,61,Perdagangan,Sulawesi Selatan,2022-11-19,Tanpa Jaminan
+LN00037,C0075,PT Maju Utama,818000000,218000000,16.56,36,360,Kesehatan,Jawa Timur,2022-11-28,Deposito
+LN00038,C0032,PT Prima Global,273000000,1164000000,13.81,24,180,Transportasi,Bali,2022-12-07,Tanpa Jaminan
+LN00039,C0002,PT Indah Makmur,473000000,253000000,12.4,24,0,Teknologi,Bali,2022-12-16,Piutang
+LN00040,C0047,PT Sentosa Nusantara,4133000000,333000000,9.89,12,0,Pertambangan,Sumatera Selatan,2022-12-25,Tanpa Jaminan
+LN00041,C0078,PT Abadi Pratama,2729000000,247000000,10.0,24,45,Perdagangan,Sumatera Utara,2023-01-04,Piutang
+LN00042,C0022,PT Prima Pratama,750000000,298000000,14.03,72,0,Transportasi,Kalimantan Timur,2023-01-13,Mesin
+LN00043,C0075,PT Prima Nusantara,503000000,98000000,17.93,36,0,Perikanan,DI Yogyakarta,2023-01-22,Deposito
+LN00044,C0027,PT Berkah Utama,547000000,69000000,13.94,24,75,Transportasi,DI Yogyakarta,2023-01-31,Tanpa Jaminan
+LN00045,C0067,PT Jaya Global,896000000,1449000000,12.69,60,14,Manufaktur,Kalimantan Timur,2023-02-09,Properti
+LN00046,C0056,PT Mandiri Nusantara,174000000,126000000,14.77,84,45,Manufaktur,Jakarta,2023-02-19,Kendaraan
+LN00047,C0021,PT Prima Global,375000000,109000000,11.58,120,21,Pertambangan,Sumatera Utara,2023-02-28,Tanah
+LN00048,C0047,PT Abadi Makmur,91000000,34000000,6.72,84,0,Transportasi,Jawa Timur,2023-03-09,Properti
+LN00049,C0059,PT Sejahtera Makmur,723000000,155000000,12.75,12,90,Konstruksi,Jakarta,2023-03-18,Mesin
+LN00050,C0006,PT Indah Nusantara,926000000,78000000,17.49,84,0,Teknologi,Jawa Tengah,2023-03-27,Tanah
+LN00051,C0019,PT Berkah Utama,299000000,1520000000,8.1,36,0,Manufaktur,Kalimantan Timur,2023-04-06,Kendaraan
+LN00052,C0057,PT Indah Utama,2341000000,807000000,14.28,12,0,Pertambangan,Jawa Timur,2023-04-15,Kendaraan
+LN00053,C0069,PT Maju Indonesia,142000000,147000000,8.41,36,75,Teknologi,DI Yogyakarta,2023-04-24,Deposito
+LN00054,C0003,PT Sejahtera Sejati,112000000,2798000000,12.43,60,31,Transportasi,Jawa Barat,2023-05-03,Tanah
+LN00055,C0001,PT Abadi Makmur,607000000,785000000,7.16,12,0,Transportasi,Sumatera Selatan,2023-05-12,Deposito
+LN00056,C0058,PT Sentosa Bersama,1382000000,212000000,11.4,48,0,Perhotelan,DI Yogyakarta,2023-05-22,Properti
+LN00057,C0038,PT Jaya Utama,2613000000,24000000,15.07,72,0,Pertambangan,Sumatera Utara,2023-05-31,Piutang
+LN00058,C0015,PT Karya Nusantara,306000000,2908000000,10.17,72,0,Manufaktur,Bali,2023-06-09,Piutang
+LN00059,C0034,PT Mandiri Indonesia,1426000000,73000000,13.98,36,0,Konstruksi,Jawa Barat,2023-06-18,Piutang
+LN00060,C0061,PT Maju Makmur,466000000,56000000,15.55,84,45,Transportasi,Sumatera Selatan,2023-06-27,Tanah
+LN00061,C0035,PT Indah Nusantara,408000000,818000000,17.13,120,0,Konstruksi,Sumatera Selatan,2023-07-07,Piutang
+LN00062,C0064,PT Berkah Indonesia,1173000000,3375000000,8.82,120,0,Transportasi,Jawa Tengah,2023-07-16,Properti
+LN00063,C0025,PT Maju Sejati,931000000,1174000000,10.79,48,21,Manufaktur,Jawa Tengah,2023-07-25,Deposito
+LN00064,C0024,PT Sejahtera Sejati,100000000,517000000,7.83,12,0,Teknologi,Sulawesi Selatan,2023-08-03,Tanah
+LN00065,C0012,PT Sejahtera Bersama,2123000000,533000000,17.91,48,1,Pertanian,DI Yogyakarta,2023-08-12,Deposito
+LN00066,C0018,PT Prima Makmur,1928000000,690000000,17.12,48,0,Teknologi,DI Yogyakarta,2023-08-22,Tanah
+LN00067,C0015,PT Karya Utama,259000000,628000000,12.48,84,61,Transportasi,DI Yogyakarta,2023-08-31,Deposito
+LN00068,C0027,PT Mandiri Bersama,720000000,389000000,16.1,120,75,Kesehatan,Sulawesi Selatan,2023-09-09,Kendaraan
+LN00069,C0072,PT Sentosa Indonesia,795000000,326000000,12.25,12,7,Pertanian,Jakarta,2023-09-18,Deposito
+LN00070,C0060,PT Karya Sejati,629000000,276000000,13.48,60,45,Pertanian,Sumatera Selatan,2023-09-27,Piutang
+LN00071,C0046,PT Sejahtera Nusantara,279000000,138000000,7.07,84,75,Konstruksi,Jawa Barat,2023-10-07,Kendaraan
+LN00072,C0017,PT Karya Nusantara,247000000,222000000,15.06,48,0,Pertambangan,Sumatera Utara,2023-10-16,Deposito
+LN00073,C0053,PT Karya Indonesia,472000000,54000000,7.53,48,45,Konstruksi,Sumatera Selatan,2023-10-25,Tanah
+LN00074,C0008,PT Indah Utama,1567000000,266000000,15.91,60,0,Konstruksi,Jawa Tengah,2023-11-03,Tanah
+LN00075,C0079,PT Prima Utama,835000000,109000000,15.38,48,21,Kesehatan,Jawa Timur,2023-11-12,Tanah
+LN00076,C0027,PT Sentosa Nusantara,334000000,97000000,14.5,48,21,Teknologi,Bali,2023-11-22,Mesin
+LN00077,C0046,PT Berkah Sejati,1049000000,352000000,6.43,48,0,Teknologi,Sulawesi Selatan,2023-12-01,Properti
+LN00078,C0050,PT Abadi Sejati,28000000,1183000000,9.64,72,0,Perikanan,Kalimantan Timur,2023-12-10,Tanah
+LN00079,C0071,PT Sentosa Sejati,1530000000,737000000,9.16,84,14,Transportasi,Jawa Timur,2023-12-19,Kendaraan
+LN00080,C0003,PT Indah Indonesia,85000000,61000000,10.32,24,60,Kesehatan,Sumatera Utara,2023-12-28,Tanah
+LN00081,C0064,PT Abadi Makmur,337000000,109000000,7.05,84,0,Perikanan,DI Yogyakarta,2024-01-07,Mesin
+LN00082,C0044,PT Sentosa Makmur,158000000,753000000,17.24,60,7,Manufaktur,Jawa Tengah,2024-01-16,Piutang
+LN00083,C0053,PT Maju Indonesia,132000000,110000000,12.65,48,31,Transportasi,Jawa Tengah,2024-01-25,Kendaraan
+LN00084,C0024,PT Prima Makmur,1548000000,235000000,9.67,84,91,Transportasi,Jawa Tengah,2024-02-03,Mesin
+LN00085,C0060,PT Sejahtera Indonesia,303000000,510000000,10.76,72,75,Perhotelan,DI Yogyakarta,2024-02-12,Piutang
+LN00086,C0003,PT Sejahtera Sejati,686000000,111000000,11.37,120,0,Perhotelan,Kalimantan Timur,2024-02-22,Tanpa Jaminan
+LN00087,C0020,PT Prima Indonesia,462000000,326000000,13.21,60,0,Perdagangan,Sulawesi Selatan,2024-03-02,Tanpa Jaminan
+LN00088,C0046,PT Prima Nusantara,781000000,77000000,12.19,36,0,Perdagangan,Jawa Timur,2024-03-11,Kendaraan
+LN00089,C0015,PT Maju Bersama,523000000,161000000,17.03,84,75,Konstruksi,DI Yogyakarta,2024-03-20,Deposito
+LN00090,C0025,PT Prima Nusantara,134000000,405000000,11.96,36,0,Manufaktur,Sumatera Utara,2024-03-29,Properti
+LN00091,C0078,PT Prima Global,1313000000,59000000,17.91,48,91,Pertanian,Sulawesi Selatan,2024-04-08,Properti
+LN00092,C0071,PT Maju Nusantara,296000000,457000000,16.22,72,1,Pertanian,Sumatera Utara,2024-04-17,Mesin
+LN00093,C0017,PT Karya Makmur,102000000,288000000,8.5,72,7,Perhotelan,Sulawesi Selatan,2024-04-26,Piutang
+LN00094,C0009,PT Karya Makmur,316000000,511000000,17.17,84,30,Perhotelan,Kalimantan Timur,2024-05-05,Properti
+LN00095,C0038,PT Indah Global,2176000000,368000000,7.4,60,0,Perhotelan,Bali,2024-05-14,Piutang
+LN00096,C0048,PT Abadi Global,1135000000,1151000000,15.81,60,14,Kesehatan,Sumatera Utara,2024-05-24,Piutang
+LN00097,C0060,PT Jaya Makmur,342000000,333000000,10.57,72,0,Pertambangan,DI Yogyakarta,2024-06-02,Mesin
+LN00098,C0063,PT Indah Utama,342000000,191000000,16.54,60,30,Perdagangan,Sulawesi Selatan,2024-06-11,Mesin
+LN00099,C0002,PT Sejahtera Pratama,351000000,332000000,16.42,72,31,Kesehatan,Jawa Tengah,2024-06-20,Mesin
+LN00100,C0072,PT Jaya Indonesia,3870000000,506000000,15.67,84,120,Teknologi,Sumatera Selatan,2024-06-29,Properti
+LN00101,C0011,PT Indah Sejati,710000000,309000000,15.48,24,0,Pertanian,Jawa Tengah,2024-07-09,Tanpa Jaminan
+LN00102,C0064,PT Sentosa Bersama,745000000,306000000,9.66,72,0,Transportasi,Jakarta,2024-07-18,Mesin
+LN00103,C0077,PT Jaya Pratama,1359000000,145000000,6.97,36,0,Perdagangan,Bali,2024-07-27,Properti
+LN00104,C0072,PT Berkah Global,616000000,151000000,10.84,60,0,Perikanan,Bali,2024-08-05,Mesin
+LN00105,C0021,PT Berkah Bersama,374000000,72000000,8.08,72,30,Teknologi,Jawa Tengah,2024-08-14,Tanah
+LN00106,C0018,PT Jaya Indonesia,398000000,1692000000,14.34,72,14,Perdagangan,Jawa Timur,2024-08-24,Piutang
+LN00107,C0064,PT Maju Utama,451000000,84000000,10.15,84,0,Kesehatan,Kalimantan Timur,2024-09-02,Mesin
+LN00108,C0038,PT Maju Sejati,467000000,147000000,17.71,60,90,Manufaktur,Sumatera Utara,2024-09-11,Kendaraan
+LN00109,C0032,PT Berkah Global,1004000000,143000000,13.69,24,0,Transportasi,DI Yogyakarta,2024-09-20,Piutang
+LN00110,C0011,PT Prima Makmur,511000000,720000000,15.87,84,45,Perdagangan,Bali,2024-09-29,Piutang
+LN00111,C0045,PT Sejahtera Sejati,1009000000,219000000,7.59,24,0,Pertambangan,Jawa Tengah,2024-10-09,Mesin
+LN00112,C0033,PT Abadi Nusantara,447000000,1024000000,16.34,120,0,Perhotelan,Jawa Tengah,2024-10-18,Tanpa Jaminan
+LN00113,C0041,PT Jaya Indonesia,524000000,150000000,17.07,84,30,Perhotelan,Kalimantan Timur,2024-10-27,Deposito
+LN00114,C0008,PT Karya Sejati,65000000,388000000,11.84,60,0,Transportasi,Kalimantan Timur,2024-11-05,Tanpa Jaminan
+LN00115,C0011,PT Berkah Pratama,1212000000,127000000,13.28,12,31,Kesehatan,Jawa Barat,2024-11-14,Mesin
+LN00116,C0051,PT Sentosa Makmur,686000000,2514000000,15.18,60,45,Perhotelan,Jawa Barat,2024-11-24,Piutang
+LN00117,C0041,PT Abadi Global,1316000000,89000000,8.1,60,61,Perdagangan,Jawa Timur,2024-12-03,Kendaraan
+LN00118,C0017,PT Mandiri Sejati,26000000,401000000,12.03,24,270,Perikanan,Jawa Timur,2024-12-12,Piutang
+LN00119,C0076,PT Mandiri Indonesia,3916000000,554000000,10.78,24,60,Pertanian,Jakarta,2024-12-21,Tanpa Jaminan
+LN00120,C0046,PT Mandiri Nusantara,421000000,445000000,7.76,60,60,Pertanian,Jawa Timur,2024-12-31,Kendaraan
