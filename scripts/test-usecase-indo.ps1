@@ -238,3 +238,80 @@ Write-Host "  Use Case 3 (Kinerja Cabang):       $($c3.status)" -ForegroundColor
 Write-Host "  Use Case 4 (Segmentasi Simpanan):  $($c4.status)" -ForegroundColor $(if ($c4.status -eq "completed") {"Green"} else {"Red"})
 Write-Host "  Use Case 5 (Tren Fraud):           $($c5.status)" -ForegroundColor $(if ($c5.status -eq "completed") {"Green"} else {"Red"})
 Write-Host ""
+
+# ============================================================================
+# DETAIL SAMPLE DATA
+# ============================================================================
+Write-Host "=============================================" -ForegroundColor Cyan
+Write-Host "  DETAIL SAMPLE DATA"                          -ForegroundColor Cyan
+Write-Host "=============================================" -ForegroundColor Cyan
+Write-Host ""
+
+Write-Host "  1. transaksi_nasabah.csv (150 record, 9 kolom)" -ForegroundColor White
+Write-Host "     Kolom: transaction_id, tanggal, account_id, jumlah, merchant,"
+Write-Host "            channel, kota, kategori, status"
+Write-Host "     Deskripsi: Data transaksi harian 30 nasabah di 10 kota."
+Write-Host "                Berisi transaksi normal (50rb-5jt), anomali besar (50jt-200jt),"
+Write-Host "                dan mikro mencurigakan (500-5000). Merchant termasuk"
+Write-Host "                Tokopedia, Shopee, Indomaret, GrabFood, Unknown, dll."
+Write-Host "     Contoh:"
+Write-Host "       TXN00001, 2025-01-01, A0028, 119.603, Unknown, ATM, Medan" -ForegroundColor Gray
+Write-Host "       TXN00005, 2025-01-04, A0015, 87.652.109, Shopee, Online, Jakarta" -ForegroundColor Gray
+Write-Host ""
+
+Write-Host "  2. portofolio_kredit.csv (120 record, 12 kolom)" -ForegroundColor White
+Write-Host "     Kolom: loan_id, customer_id, nama_debitur, jumlah_pinjaman, sisa_pokok,"
+Write-Host "            suku_bunga, tenor_bulan, dpd, sektor, wilayah,"
+Write-Host "            tanggal_pencairan, jaminan"
+Write-Host "     Deskripsi: Portofolio kredit korporasi 120 debitur."
+Write-Host "                DPD bervariasi: 50 lancar (DPD=0), 25 dalam perhatian (1-30),"
+Write-Host "                20 kurang lancar (31-60), 15 diragukan (61-90), 10 macet (90+)."
+Write-Host "                Sektor: Manufaktur, Perdagangan, Konstruksi, Pertanian, dll."
+Write-Host "                Jaminan: Properti, Kendaraan, Deposito, Tanah, Tanpa Jaminan."
+Write-Host "     Contoh:"
+Write-Host "       LN00001, PT Indah Pratama, 483jt, DPD 120, Teknologi, SumUt" -ForegroundColor Gray
+Write-Host "       LN00002, PT Maju Bersama, 152jt, DPD 0, Teknologi, JaTim" -ForegroundColor Gray
+Write-Host ""
+
+Write-Host "  3. kinerja_cabang.csv (100 record, 10 kolom)" -ForegroundColor White
+Write-Host "     Kolom: branch_id, kota, bulan, pendapatan_bulanan, rekening_baru,"
+Write-Host "            jumlah_keluhan, jumlah_karyawan, transaksi_digital,"
+Write-Host "            transaksi_counter, nps_score"
+Write-Host "     Deskripsi: Data kinerja bulanan 20 cabang selama 5 bulan (Jan-Mei 2025)."
+Write-Host "                KPI: pendapatan (500jt-3M), rekening baru, keluhan,"
+Write-Host "                transaksi digital vs counter, NPS score (20-90)."
+Write-Host "                Cabang: Jakarta Pusat, Surabaya, Bandung, Medan, Makassar, dll."
+Write-Host "     Contoh:"
+Write-Host "       B001, Jakarta Pusat, 2025-01, 2.34M, 135 rek baru, 6 keluhan, NPS 48.8" -ForegroundColor Gray
+Write-Host "       B005, Surabaya, 2025-03, 1.82M, 280 rek baru, 18 keluhan, NPS 32.1" -ForegroundColor Gray
+Write-Host ""
+
+Write-Host "  4. tabungan_deposito.csv (130 record, 11 kolom)" -ForegroundColor White
+Write-Host "     Kolom: account_id, nama_nasabah, produk, saldo, bunga_persen,"
+Write-Host "            tanggal_buka, kelompok_usia, kota, status_aktif,"
+Write-Host "            kanal_pembukaan, frekuensi_transaksi_bulanan"
+Write-Host "     Deskripsi: Data nasabah simpanan dengan 9 jenis produk."
+Write-Host "                Produk: Tabungan Reguler, Tabungan Bisnis, Deposito 1/3/6/12 bln,"
+Write-Host "                Tabungan Haji, Tabungan Pendidikan, Giro."
+Write-Host "                Kelompok usia: 18-25, 26-35, 36-45, 46-55, 56-65, 65+."
+Write-Host "                Status: Aktif, Dormant, Tutup."
+Write-Host "     Contoh:"
+Write-Host "       SAV00001, Deposito 6 Bulan, saldo 116jt, usia 36-45, Aktif" -ForegroundColor Gray
+Write-Host "       SAV00002, Deposito 12 Bulan, saldo 14jt, usia 46-55, Dormant" -ForegroundColor Gray
+Write-Host ""
+
+Write-Host "  5. laporan_fraud.csv (110 record, 11 kolom)" -ForegroundColor White
+Write-Host "     Kolom: fraud_id, tanggal_laporan, account_id, jenis_fraud,"
+Write-Host "            jumlah_kerugian, channel, kota, status_investigasi,"
+Write-Host "            waktu_deteksi_jam, sumber_laporan, resolved"
+Write-Host "     Deskripsi: Data laporan fraud dari Jun 2024 - Mar 2025."
+Write-Host "                Jenis: Skimming ATM, Phishing, Social Engineering,"
+Write-Host "                Pemalsuan Dokumen, Transaksi Tidak Sah, SIM Swap,"
+Write-Host "                Pencurian Identitas, Money Mule."
+Write-Host "                Channel: ATM, Mobile Banking, Internet Banking, Cabang, EDC."
+Write-Host "                Status: Terverifikasi, Dalam Investigasi, Ditolak,"
+Write-Host "                Selesai - Ganti Rugi, Selesai - Tidak Ganti Rugi."
+Write-Host "     Contoh:"
+Write-Host "       FRD00001, Pencurian Identitas, kerugian 6.8jt, Cabang, deteksi 102 jam" -ForegroundColor Gray
+Write-Host "       FRD00002, Skimming ATM, kerugian 8.4jt, ATM, deteksi 43 jam" -ForegroundColor Gray
+Write-Host ""
