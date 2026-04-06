@@ -1,0 +1,183 @@
+# ConfigMap holding the backend configuration
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: codeinterpreter
+data:
+  AZURE_OPENAI_DEPLOYMENT: "__OPENAI_DEPLOYMENT__"
+  AZURE_OPENAI_API_VERSION: "2024-12-01-preview"
+  AZURE_STORAGE_ACCOUNT_NAME: "__STORAGE_ACCOUNT_NAME__"
+  STORAGE_DATASETS_CONTAINER: "datasets"
+  STORAGE_OUTPUTS_CONTAINER: "outputs"
+  STORAGE_AUDIT_CONTAINER: "audit-logs"
+  SANDBOX_NAMESPACE: "sandbox"
+  SANDBOX_CPU_LIMIT: "1"
+  SANDBOX_MEMORY_LIMIT: "1Gi"
+  SANDBOX_TIMEOUT_SECONDS: "600"
+  SANDBOX_NODE_POOL: "sandboxpool"
+  LLM_PROVIDER: "azure"
+  CORS_ORIGINS: "*"
+---
+# Secret for sensitive values (populated by deploy script)
+apiVersion: v1
+kind: Secret
+metadata:
+  name: backend-secrets
+  namespace: codeinterpreter
+type: Opaque
+stringData:
+  AZURE_OPENAI_ENDPOINT: "__OPENAI_ENDPOINT__"
+  AZURE_OPENAI_KEY: "__OPENAI_KEY__"
+---
+# Backend Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: codeinterpreter
+  labels:
+    app: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+        azure.workload.identity/use: "true"
+    spec:
+      serviceAccountName: orchestrator-sa
+      containers:
+        - name: backend
+          image: "__ACR_LOGIN_SERVER__/code-interpreter-backend:latest"
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: backend-config
+            - secretRef:
+                name: backend-secrets
+          env:
+            - name: SANDBOX_IMAGE
+              value: "__ACR_LOGIN_SERVER__/code-interpreter-sandbox:latest"
+            - name: ACR_LOGIN_SERVER
+              value: "__ACR_LOGIN_SERVER__"
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "384Mi"
+            limits:
+              cpu: "1"
+              memory: "768Mi"
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 10
+---
+# Backend Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+  namespace: codeinterpreter
+spec:
+  selector:
+    app: backend
+  ports:
+    - port: 8000
+      targetPort: 8000
+  type: ClusterIP
+---
+# Frontend Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: codeinterpreter
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: "__ACR_LOGIN_SERVER__/code-interpreter-frontend:latest"
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+---
+# Frontend Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  namespace: codeinterpreter
+spec:
+  selector:
+    app: frontend
+  ports:
+    - port: 3000
+      targetPort: 3000
+  type: ClusterIP
+---
+# Ingress — NGINX Ingress Controller
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: code-interpreter-ingress
+  namespace: codeinterpreter
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "50m"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
+spec:
+  ingressClassName: nginx
+  rules:
+    - http:
+        paths:
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: backend
+                port:
+                  number: 8000
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: frontend
+                port:
+                  number: 3000

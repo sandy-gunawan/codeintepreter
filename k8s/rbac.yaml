@@ -1,0 +1,38 @@
+# ServiceAccount for the backend to create Jobs in the sandbox namespace
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: orchestrator-sa
+  namespace: codeinterpreter
+---
+# Role to create and manage Jobs + Pods in sandbox namespace
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: sandbox-job-manager
+  namespace: sandbox
+rules:
+  - apiGroups: ["batch"]
+    resources: ["jobs"]
+    verbs: ["create", "get", "list", "watch", "delete"]
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: [""]
+    resources: ["pods/log"]
+    verbs: ["get"]
+---
+# Bind the role to the orchestrator ServiceAccount
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: orchestrator-sandbox-binding
+  namespace: sandbox
+subjects:
+  - kind: ServiceAccount
+    name: orchestrator-sa
+    namespace: codeinterpreter
+roleRef:
+  kind: Role
+  name: sandbox-job-manager
+  apiGroup: rbac.authorization.k8s.io

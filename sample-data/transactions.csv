@@ -1,0 +1,16 @@
+transaction_id,account_id,amount,merchant,channel,date
+T001,A123,150000,Tokopedia,Online,2025-01-02
+T002,A123,8500000,Unknown,Online,2025-01-03
+T003,A123,200000,Indomaret,Offline,2025-01-03
+T004,A124,350000,Shopee,Online,2025-01-04
+T005,A124,120000,GrabFood,Online,2025-01-04
+T006,A125,50000000,Unknown,Online,2025-01-05
+T007,A125,175000,Alfamart,Offline,2025-01-05
+T008,A126,300000,Tokopedia,Online,2025-01-06
+T009,A126,95000,KFC,Offline,2025-01-06
+T010,A127,15000000,Unknown,Online,2025-01-07
+T011,A127,220000,Indomaret,Offline,2025-01-07
+T012,A128,180000,Shopee,Online,2025-01-08
+T013,A128,450000,GrabFood,Online,2025-01-08
+T014,A129,100000,Alfamart,Offline,2025-01-09
+T015,A129,25000000,Unknown,Online,2025-01-09

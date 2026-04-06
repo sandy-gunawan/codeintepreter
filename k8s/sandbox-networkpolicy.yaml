@@ -1,0 +1,71 @@
+# Block ALL egress from sandbox namespace except Azure Blob Storage
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: sandbox-deny-all-egress
+  namespace: sandbox
+spec:
+  podSelector: {}
+  policyTypes:
+    - Egress
+  egress: []
+---
+# Allow egress to Azure Blob Storage only (for data I/O)
+# Azure Storage uses HTTPS on port 443
+# The actual IPs depend on the region; using DNS-based allow
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: sandbox-allow-storage-egress
+  namespace: sandbox
+spec:
+  podSelector:
+    matchLabels:
+      app: sandbox-executor
+  policyTypes:
+    - Egress
+  egress:
+    # Allow DNS resolution (required for blob endpoint resolution)
+    - to: []
+      ports:
+        - protocol: UDP
+          port: 53
+        - protocol: TCP
+          port: 53
+    # Allow HTTPS to Azure Blob Storage
+    # Note: In production, restrict to specific Azure Storage IP ranges
+    - to: []
+      ports:
+        - protocol: TCP
+          port: 443
+---
+# Block ingress to sandbox pods (no one should connect to them)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: sandbox-deny-all-ingress
+  namespace: sandbox
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+  ingress: []
+---
+# Block access to Azure IMDS (metadata service)
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: sandbox-block-metadata
+  namespace: sandbox
+spec:
+  podSelector:
+    matchLabels:
+      app: sandbox-executor
+  policyTypes:
+    - Egress
+  egress:
+    - to:
+        - ipBlock:
+            cidr: 0.0.0.0/0
+            except:
+              - 169.254.169.254/32

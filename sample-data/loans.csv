@@ -1,0 +1,13 @@
+loan_id,customer_id,loan_amount,dpd,sector,region
+L001,C001,500000000,0,Manufacturing,Jakarta
+L002,C002,300000000,45,Retail,Bandung
+L003,C003,800000000,90,Construction,Surabaya
+L004,C004,150000000,0,Technology,Jakarta
+L005,C005,250000000,30,Agriculture,Medan
+L006,C006,600000000,120,Construction,Makassar
+L007,C007,400000000,0,Manufacturing,Semarang
+L008,C008,200000000,60,Retail,Bandung
+L009,C009,1000000000,15,Technology,Jakarta
+L010,C010,350000000,180,Agriculture,Surabaya
+L011,C011,450000000,0,Manufacturing,Jakarta
+L012,C012,550000000,75,Retail,Medan

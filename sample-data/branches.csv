@@ -1,0 +1,9 @@
+branch_id,city,monthly_revenue,new_accounts,complaints
+B001,Jakarta,1200000000,320,5
+B002,Medan,650000000,210,12
+B003,Surabaya,900000000,250,8
+B004,Bandung,750000000,180,3
+B005,Makassar,400000000,120,15
+B006,Semarang,550000000,200,7
+B007,Denpasar,480000000,160,4
+B008,Yogyakarta,350000000,140,10

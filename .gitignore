@@ -1,0 +1,35 @@
+# Environment files
+.env
+.env.*
+!.env.example
+openai-config.ps1
+
+# Temp files
+temp_*.json
+scripts/temp_*.json
+
+# Node
+node_modules/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Docker
+*.tar
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform state (if used later)
+*.tfstate
+*.tfstate.*
+.terraform/
