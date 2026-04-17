@@ -62,29 +62,61 @@ az vm list-usage --location indonesiacentral -o table | grep -i "Standard DSv3"
 
 ## Quick Start
 
-### One-Command Deploy (Linux/macOS/WSL)
+### Running the Demo (Already Deployed)
 
-```bash
-bash scripts/deploy-all.sh
-```
-
-### One-Command Deploy (Windows PowerShell)
+If the platform is already deployed to AKS, use the one-command demo script:
 
 ```powershell
+cd C:\labs\tech\codeintepreter
+.\scripts\demo-start.ps1
+```
+
+This script automatically:
+- Starts the AKS cluster if stopped
+- Fixes storage access (enterprise policy disables it daily)
+- Verifies managed identity role assignments
+- Checks pods are running
+- **Prints the access URL**
+
+After the script completes, open the printed URL in your browser (e.g. `http://<ip-address>`).
+
+> **Note on IP address:** The Ingress IP is dynamic — it stays the same as long as the
+> NGINX LoadBalancer Service exists, but may change if the cluster is redeployed.
+> Always run `demo-start.ps1` or `kubectl get ingress -n codeinterpreter` to get the current IP.
+
+After your demo, stop the cluster to save costs:
+```powershell
+az aks stop -g rg-code-interpreter -n codeinterp-aks-smnjwoou2sgh6
+```
+
+### Known Enterprise Policy Issues
+
+| Issue | Symptom | Fix (automated by demo-start.ps1) |
+|-------|---------|-----------------------------------|
+| Storage `publicNetworkAccess` disabled daily by policy | Upload returns "Internal Server Error" / "AuthorizationFailure" | `az storage account update -n <name> --public-network-access Enabled` |
+| AKS cluster auto-stopped by policy | `kubectl` returns "no such host" | `az aks start -g <rg> -n <cluster>` |
+| Role assignment removed by policy | Storage returns "not authorized" | `az role assignment create` for Storage Blob Data Contributor |
+
+All three are handled automatically by `.\scripts\demo-start.ps1`.
+
+### First-Time Deployment (From Scratch)
+
+```powershell
+# 1. Configure your existing Azure OpenAI (copy and edit)
+cp openai-config.example.ps1 openai-config.ps1
+# Edit openai-config.ps1 with your endpoint, deployment name, and key
+
+# 2. Load config and deploy everything
+. .\openai-config.ps1
 .\scripts\deploy-all.ps1
 ```
 
-### Step-by-Step Deploy
-
-```bash
-# 1. Validate prerequisites
-bash scripts/preflight-check.sh
-
-# 2. Deploy infrastructure (AKS, ACR, Storage, OpenAI, etc.)
-bash scripts/deploy-infra.sh
-
-# 3. Build images and deploy to AKS
-bash scripts/deploy-apps.sh
+Or step-by-step:
+```powershell
+.\scripts\preflight-check.ps1      # Validate prerequisites
+. .\openai-config.ps1
+.\scripts\deploy-infra.ps1         # Deploy AKS, ACR, Storage (~10 min)
+.\scripts\deploy-apps.ps1          # Build images, deploy to AKS (~5 min)
 ```
 
 ### Configuration
@@ -138,16 +170,24 @@ bash scripts/deploy-all.sh
 │   ├── rbac.yaml
 │   ├── sandbox-networkpolicy.yaml
 │   └── app-deployment.yaml
-├── scripts/                        # Deployment automation
-│   ├── preflight-check.sh
-│   ├── deploy-infra.sh
-│   ├── deploy-apps.sh
-│   ├── deploy-all.sh
-│   └── deploy-all.ps1
+├── scripts/                        # Deployment & demo automation
+│   ├── demo-start.ps1              # Quick start for demos (fixes policy issues)
+│   ├── destroy.ps1                 # Cleanup all Azure resources
+│   ├── deploy-all.ps1              # One-command full deployment
+│   ├── deploy-infra.ps1            # Deploy infrastructure (Bicep)
+│   ├── deploy-apps.ps1             # Build + deploy apps to AKS
+│   ├── preflight-check.ps1         # Validate prerequisites
+│   ├── test-e2e-live.ps1           # E2E test (English)
+│   └── test-usecase-indo.ps1       # 5 use cases test (Bahasa Indonesia)
 ├── sample-data/                    # Banking sample datasets
-│   ├── transactions.csv
-│   ├── loans.csv
-│   └── branches.csv
+│   ├── transactions.csv            # Basic transactions (15 records)
+│   ├── loans.csv                   # Basic loans (12 records)
+│   ├── branches.csv                # Basic branches (8 records)
+│   ├── transaksi_nasabah.csv       # Transaction anomaly (150 records)
+│   ├── portofolio_kredit.csv       # Loan risk analysis (120 records)
+│   ├── kinerja_cabang.csv          # Branch performance (100 records)
+│   ├── tabungan_deposito.csv       # Savings segmentation (130 records)
+│   └── laporan_fraud.csv           # Fraud analysis (110 records)
 └── requirement.md                  # Original requirements
 ```
 
@@ -177,15 +217,22 @@ bash scripts/deploy-all.sh
 
 ## Sample Use Cases
 
+### Quick Demo (English)
 Upload `sample-data/transactions.csv` and try:
 - "Identify unusual transactions"
 - "Show transactions above normal daily spending"
-- "Plot transaction amounts by account"
 
-Upload `sample-data/loans.csv` and try:
-- "Which loans are high risk?"
-- "Group risk by sector"
-- "Show DPD distribution by region"
+### Banking Use Cases (Bahasa Indonesia — 100+ records each)
+
+| # | Dataset | Records | Sample Prompt |
+|---|---------|---------|---------------|
+| 1 | `transaksi_nasabah.csv` | 150 | "Identifikasi transaksi mencurigakan, buat box plot dan bar chart" |
+| 2 | `portofolio_kredit.csv` | 120 | "Klasifikasi risiko kredit berdasarkan DPD, buat pie chart dan heatmap per sektor" |
+| 3 | `kinerja_cabang.csv` | 100 | "Ranking 20 cabang berdasarkan skor komposit, buat line chart tren pendapatan" |
+| 4 | `tabungan_deposito.csv` | 130 | "Analisis segmentasi nasabah per produk dan usia, buat stacked bar chart" |
+| 5 | `laporan_fraud.csv` | 110 | "Analisis tren fraud per bulan, buat heatmap jenis fraud vs channel" |
+
+Run all 5 automatically: `.\scripts\test-usecase-indo.ps1 -BaseUrl "http://<ip>"`
 
 ## Extending the LLM Provider
 
@@ -201,3 +248,6 @@ To add a new LLM backend (e.g., AWS Bedrock):
 - Azure OpenAI gpt-4.1 only available via Global Standard in Southeast Asia (not Indonesia Central)
 - Microsoft Defender for Containers does not scan Kata pods
 - Sandbox IOPS ~60-70% of standard containers due to hypervisor overhead
+- **Ingress IP is dynamic** — may change if cluster is redeployed. Always check with `kubectl get ingress -n codeinterpreter` or `demo-start.ps1`
+- **Enterprise policy workarounds** — lab/sandbox subscriptions may auto-disable storage public access and stop AKS clusters daily. Run `demo-start.ps1` before each demo session to fix automatically
+- First analysis after idle takes 2-5 min extra (sandbox node scale-up from 0)
