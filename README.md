@@ -2,6 +2,32 @@
 
 Secure, end-to-end Code Interpreter platform for banking data analysis using AKS Pod Sandboxing (Kata Containers / microVM isolation).
 
+## How to Run the Demo
+
+```powershell
+# 1. From your laptop PowerShell — start the platform (1-5 min):
+cd C:\labs\tech\codeintepreter
+.\scripts\demo-start.ps1
+
+# 2. Open the printed URL in any browser:
+#    http://<ip-address>
+
+# 3. Upload a CSV file and ask a question. Examples:
+#    - Upload transaksi_nasabah.csv → "Identifikasi transaksi mencurigakan, buat grafik"
+#    - Upload portofolio_kredit.csv → "Klasifikasi risiko kredit berdasarkan DPD"
+#    - Upload laporan_fraud.csv     → "Analisis tren fraud per bulan, buat heatmap"
+
+# 4. After demo — stop cluster to save costs:
+az aks stop -g rg-code-interpreter -n codeinterp-aks-smnjwoou2sgh6
+```
+
+> **Your laptop is only needed to start/stop the cluster.** Once running, anyone can access the
+> platform from any browser using the URL — no installation needed on the client side.
+> 
+> **First analysis takes 2-5 min** (sandbox node scales from 0). Subsequent ones take 30-60 sec.
+
+---
+
 ## Architecture
 
 ```
